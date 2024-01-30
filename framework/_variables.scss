@@ -1,19 +1,27 @@
 // theme colors
-$primary: #326dee !default;
-$secondary: #1ac886 !default;
-$error: #d32752 !default;
-$info: #f6c31c !default;
+$primary: #FDCA7D !default;
+$brown: #976821;
+$lt_brown: #FFF8EF;
+$secondary: #56A748 !default;
+$green: #56A748 !default;
+$lt_green: #F1F8F0;
+$error: #D22827 !default;
+$lt_red: #FBEEEE;
+
+$info: #f6c31c !default; 
 
 // color palette
 $colors: (
   "primary": $primary,
+  "brown": $brown,
   "secondary": $secondary,
   "error": $error,
+  "lt_red": $lt_red,
   "info": $info,
   "blue": #1919e6,
   "red": #e61919,
   "yellow": #e6e619,
-  "green": #19e635,
+  "green": $green,
   "orange": #ffa600,
   "purple": #9900ff,
   "gray": #808080,
